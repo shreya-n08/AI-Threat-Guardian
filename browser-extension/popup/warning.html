@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>AI Threat Guardian</title>
+
+    <link
+        rel="stylesheet"
+        href="warning.css"
+    >
+
+</head>
+
+<body>
+
+    <main class="guardian-card">
+
+        <div class="shield">
+            🛡️
+        </div>
+
+        <h1>
+            AI Threat Guardian
+        </h1>
+
+        <p class="subtitle">
+            Your request was checked before continuing.
+        </p>
+
+
+        <div
+            id="status"
+            class="status checking"
+        >
+
+            <div class="spinner"></div>
+
+            <h2>
+                Investigating...
+            </h2>
+
+            <p>
+                AI security agents are analyzing this request.
+            </p>
+
+        </div>
+
+
+        <div class="url-container">
+
+            <label>
+                Requested URL
+            </label>
+
+            <div id="url">
+                Loading...
+            </div>
+
+        </div>
+
+
+        <div
+            id="details"
+            class="details"
+        >
+        </div>
+
+
+        <div class="buttons">
+
+            <button
+                id="backButton"
+                class="block-button"
+            >
+                🛑 Go Back
+            </button>
+
+
+            <button
+                id="continueButton"
+                class="continue-button"
+            >
+                Continue Anyway
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <script src="warning.js"></script>
+
+</body>
+
+</html>
